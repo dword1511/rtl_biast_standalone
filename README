@@ -1,0 +1,2 @@
+This is a stand-alone version of rtl_biast, which works with stock librtlsdr and can be installed into systems without conflicts.
+Origin: https://github.com/rtlsdrblog/rtl_biast/

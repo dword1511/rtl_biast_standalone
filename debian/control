@@ -1,0 +1,16 @@
+Source: rtl-biast
+Section: hamradio
+Priority: extra
+Maintainer: Chi Zhang <zhangchi866@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/dword1511/rtl_biast_standalone
+Vcs-Git: https://github.com/dword1511/rtl_biast_standalone.git
+Vcs-Browser: https://github.com/dword1511/rtl_biast_standalone
+
+Package: rtl-biast
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Standalone tool for turning the bias tee on some RTL-SDR dongle ON and OFF
+ This is a stand-alone version of rtl_biast, which works with stock librtlsdr and can be installed into systems without conflicts.
+ Origin: https://github.com/rtlsdrblog/rtl_biast/
